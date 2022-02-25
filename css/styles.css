@@ -6,7 +6,7 @@
 
 #header {
     width: 100vw;
-    height: 10vh;
+    height: 15vh;
 }
 
 h1 {
@@ -17,7 +17,7 @@ h1 {
 
 hr {
     margin: 0 auto;
-    width: 50%;
+    width: 60%;
     border-bottom: 3px solid black;
     display: flex;
     justify-content: center;
@@ -25,9 +25,14 @@ hr {
 }
 
 #page-body {
+    width: 45vw;
+    height: 45vh;
     display: flex;
+    margin: 0 auto;
     justify-content: center;
     align-items: center;
+    border: 1px dotted black;
+    padding: 25px;   
 }
 
 #phone {
@@ -50,46 +55,55 @@ hr {
     display: flex;
     justify-content: center;
     align-items: center;
+    transform-origin: 50% 100%;
 }
 
 .num:nth-child(1){
-    transform: translateX(250px);
+    transform: translate(250px);
 }
 
 .num:nth-child(2){
-    transform: /*rotate(90deg)*/ translateX(250px) translateY(250px); 
+    transform: translate(200px, -50px); 
 }
 
 .num:nth-child(3){
-    transform: rotate(83deg) translateX(250px);
+    transform: translate(150px, -60px);
 }
 
 .num:nth-child(4){
-    transform: rotate(74deg) translateX(250px);
+    transform: translate(10px, 40px);
 }
 
 .num:nth-child(5){
-    transform: rotate(65deg) translateX(250px);
+    transform: translate(0px, 60px);
 }
 
 .num:nth-child(6){
-    transform: rotate(56deg) translateX(250px);
+    transform: translate(-10px, 100px);
 }
 
 .num:nth-child(7){
-    transform: rotate(45deg) translateX(250px);
+    transform: translate(0px, 150px);
 }
 
 .num:nth-child(8){
-    transform: rotate(36deg) translateX(250px);
+    transform: translate(15px, 190px);
 }
 
 .num:nth-child(9){
-    transform: rotate(27deg) translateX(250px);
+    transform: translate(40px, 220px);
 }
 
 .num:nth-child(10){
-    transform: rotate(18deg) translateX(250px);
+    transform: translate(75px, 235px);
+}
+
+.guard{
+    height: 25px;
+    width: 75px;
+    border: 1px solid black;
+    background-color: black;
+    transform: rotate(15deg) translate(250px, 100px)
 }
 
 #footer{
